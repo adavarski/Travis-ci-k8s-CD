@@ -30,9 +30,9 @@ after_success:
     docker push ${RELEASE_IMAGE_PATH}
   fi
 
-deploy:
-  provider: script
-  script: deployment/deploy.sh
-  on:
-    tags: true
-    condition: "${TRAVIS_TAG} =~ ^rel.*$"
+#deploy:
+#  provider: script
+#  script: deployment/deploy.sh
+#  on:
+#    tags: true
+#    condition: "${TRAVIS_TAG} =~ ^rel.*$"
