@@ -1,8 +1,13 @@
 ## Example CICD k8s Travis CI
 
 Setup Travis CI env variables
+
 CI_ENV_K8S_CA
+
 CI_ENV_K8S_MASTER
+
 CI_ENV_K8S_SA_TOKEN
+
 CI_ENV_REGISTRY_USER
+
 CI_ENV_REGISTRY_PASS
