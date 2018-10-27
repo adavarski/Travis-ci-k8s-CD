@@ -1,4 +1,4 @@
-## Example CICD k8s Travis CI
+## Example CI/CD k8s Travis CI
 
 Setup Travis CI env variables
 
